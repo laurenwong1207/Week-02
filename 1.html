@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal.css" />
+  </head>
+  <style>
+    .row {
+      display: flex;
+      flex-direction: row;
+      pad: 0 10px;
+      align-content: end;
+    }
+  </style>
+  <body
+    style="
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #aaaaaa;
+    "
+  >
+    <div id="top" style="height: 7px; background-color: #000"></div>
+    <div class="row" id="row1">
+      <div id="circle1" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle2" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle3" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle4" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle5" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+    </div>
+    <div class="row" id="row2">
+      <div id="circle6" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle7" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle8" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle9" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle10" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+    </div>
+    <div class="row" id="row3">
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle11" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle12" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle13" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle14" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+    </div>
+    <div class="row" id="row4">
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle15" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle16" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+    </div>
+    <div class="row" id="row5">
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle17" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle18" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+    </div>
+    <div class="row" id="row6">
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle1" class="circle-container" style="visibility: hidden">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+      <div id="circle19" class="circle-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+      </div>
+    </div>
+    <!-- modal window -->
+    <div id="myModal" class="modal">
+      <!-- close button -->
+      <span
+        class="close"
+        onclick="document.getElementById('myModal').style.display='none'"
+        >&times;</span
+      >
+
+      <!-- modal-content -->
+      <img class="modal-content" id="img01" />
+
+      <!-- text description -->
+      <div id="caption" style="color: #2b32f7"></div>
+    </div>
+    <div
+      id="text"
+      style="position: absolute; margin-right: 75px; margin-top: 500px"
+    >
+      <div id="text_m" style="margin-bottom: 20px;color: #ffffff">
+        19 Reservoirs <br />
+        1 Billion Gallons <br />
+        Serving 8.5 Million Residents
+      </div>
+      <div
+        id="texy_b"
+        style="
+          font-size: 64px;
+          font-family: Arial, sans-serif;
+          font-weight: 600;
+          color: #ffffff";
+        "
+      >
+        The Silent <br />
+        Springs <br /> 
+        of Manhattan
+      </div>
+    </div>
+  </body>
+  <script>
+    const imageNames = [
+      "amawalk-reservoir.jpg",
+      "Ashokan Reservoir.jpg",
+      "boyds-corner-reservoir.jpg",
+      "Cannonsville Reservoir.jpg",
+      "Cross River Reservoir.jpg",
+      "Croton Falls.jpg",
+      "Diverting Reservoir.jpg",
+      "East Branch Reservoir.jpg",
+      "Kensico Reservoir.jpg",
+      "Middle Branch Reservoir.jpg",
+      "muscoot-reservoir.jpg",
+      "Neversink Reservoir.jpg",
+      "Pepacton Reservoir.jpg",
+      "Rondout Reservoir.jpg",
+      "Schoharie Reservoir.jpg",
+      "titicus-reservoir.jpg",
+      "West Branch Reservoir.jpg",
+    ];
+    const imageDes = [
+      "shokan Reservoir: 73 miles north of New York City, 122.9 billion gallons",
+      "Boyds Corner Reservoir: 40 miles from New York City, 1.7 billion gallons",
+      "Cannonsville Reservoir: 120 miles northwest of New York City, 95.7 billion gallons",
+      "Kensico Reservoir: 15 miles north of New York City, 30.6 billion gallon",
+      "Kensico Reservoir: 15 miles north of New York City, 30.6 billion gallon",
+      "Pepacton Reservoir: 100 miles northwest of New York City, 140.2 billion gallons",
+      "Rondout Reservoir: 65 miles northwest of New York City, 49.6 billion gallons",
+      "Schoharie Reservoir: 110 miles from New York City, 17.6 billion gallons",
+      "West Branch Reservoir: 35 miles from New York City, 8 billion gallons",
+      "Amawalk Reservoir: 25 miles north of New York City, 6.7 billion gallons",
+      "Bog Brook Reservoir: 38 miles from New York City, 4.4 billion gallons",
+      "Cross River Reservoir: 25 miles from New York City, 10.3 billion gallons",
+      "Croton Falls Reservoir: 30 miles north of New York City, 14.2 billion gallons",
+      "Diverting Reservoir: 35 miles from New York City, 900 million gallons",
+      "East Branch Reservoir: 35 miles north of New York City, 5.2 billion gallons",
+      "Middle Branch Reservoir: 35 miles from New York City, 4.1 billion gallons",
+      "Muscoot Reservoir: 25 miles from New York City, 4.9 billion gallons",
+    ];
+
+    const Pics = [];
+
+    // read photo
+    for (let i = 0; i < imageNames.length; i++) {
+      const img = new Image();
+      img.src = `assets/${imageNames[i]}`;
+      img.alt = imageDes[i];
+      Pics.push(img);
+    }
+
+    // Waiting for all images to finish loading
+    Promise.all(
+      Pics.map(
+        (img) =>
+          new Promise((resolve) => {
+            img.onload = resolve;
+          })
+      )
+    )
+      .then(() => {
+        console.log("all images are uploaded");
+        // display images
+      })
+      .catch((error) => {
+        console.error("Error loading images", error);
+      });
+
+    // Bind click event
+    for (let i = 1; i <= 19; i++) {
+      const circle = document.getElementById(`circle${i}`);
+      circle.addEventListener("click", () => {
+        showImage(i);
+      });
+    }
+    // Get all the circle elements
+    const circles = document.querySelectorAll(".circle");
+
+    // Define the available change animations
+    const changeAnimations = [
+      "change1",
+      "change2",
+      "change3",
+      "change4",
+      "change5",
+      "change6",
+      "change7",
+    ];
+
+    // Assign a random change animation to each circle
+    circles.forEach((circle) => {
+      const randomAnimation =
+        changeAnimations[Math.floor(Math.random() * changeAnimations.length)];
+      circle.style.setProperty("--change-animation", randomAnimation);
+    });
+
+    // Generate random parameters
+    function generateRandomValue(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+
+    // Retrieve image and insert into popup - Use the 'alt' attribute as the content for the text part
+    // Retrieve image element and elements related to the popup
+    // Retrieve image element and elements related to the popup
+    var modal = document.getElementById("myModal");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+
+    // Bind click event
+    for (let i = 1; i <= 19; i++) {
+      (function (index) {
+        var img = document.getElementById("circle" + index);
+        img.onclick = function () {
+          modal.style.display = "block";
+          modalImg.src = Pics[index - 1].src;
+          captionText.innerHTML = Pics[index - 1].alt;
+        };
+      })(i);
+    }
+
+    // Close popup
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    // Close popup
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    // Retrieve <span> element, set as close button
+    var span = document.getElementsByClassName("close")[0];
+
+    // When clicking (x), close the popup
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+  </script>
+</html>
