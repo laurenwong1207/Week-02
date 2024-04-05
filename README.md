@@ -13,6 +13,7 @@ Source: https://www.nyc.gov/site/dep/water/water-supply.page
 
 ## Process
 The webpage is designed with HTML, CSS, and JavaScript to showcase circles representing reservoirs. Each circle is clickable and triggers a modal popup displaying an image of the respective reservoir and its description. The images are preloaded for better performance. The circles also have random change animations applied to them. The modal popup can be closed by clicking the 'x' button or by clicking outside the popup. 
+
 The graphic drew inspiration from water ripple patterns. To maintain the grid layout of the page, I kept the size of the ripples consistent. I also want to experiment with mapping each reservoir's data to changes in radiation size and vortex speed and weave patterns for further exploration.
 
 
