@@ -1,4 +1,4 @@
-# Week 2
+# Week 2 
 
 ## Ideation
 The concept aims to portray the intricate water infrastructure of New York City, showing its 19 reservoirs and water supply system.
